@@ -1,0 +1,66 @@
+MIT License
+
+Copyright (c) 2026 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+---
+
+## MIT License 中文说明 / Chinese Translation
+
+**MIT 协议是目前最流行的开源软件许可证之一**
+
+### 主要特点 / Key Features:
+
+✅ **极其宽松**: 几乎没有限制，你可以自由使用、修改、分发  
+✅ **商业友好**: 可以用于商业项目，无需公开源代码  
+✅ **简单明了**: 只有简短的几行条款，易于理解  
+✅ **广泛采用**: 被大量知名项目使用（如 React, jQuery, Node.js 等）
+
+### 你的权利 / Your Rights:
+
+- ✅ **商业使用** - 可以将此软件用于商业目的
+- ✅ **修改** - 可以修改源代码
+- ✅ **分发** - 可以复制和分发
+- ✅ **私人使用** - 可以私人使用
+- ✅ **再授权** - 可以在修改后使用不同协议
+
+### 唯一条件 / Only Condition:
+
+只需保留版权声明和许可声明在所有副本中。
+
+---
+
+### 如何引用此项目 / How to Cite:
+
+如果你在研究或项目中使用了本代码，请按以下格式引用：
+
+```bibtex
+@software{pytorch_mnist_2026,
+  author = {{Your Name}},
+  title = {PyTorch MNIST Handwritten Digit Recognition},
+  year = {2026},
+  url = {https://github.com/YOUR_USERNAME/Pytorch_MNIST},
+  version = {1.0.0}
+}
+```
+
+---
+
+**注意**: 请将 `[Your Name]` 替换为你的真实姓名或用户名。  
+**Note**: Please replace `[Your Name]` with your real name or username.

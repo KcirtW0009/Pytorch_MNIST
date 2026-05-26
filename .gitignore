@@ -1,0 +1,430 @@
+# ============================================
+# PyTorch MNIST Project - .gitignore
+# Python + Machine Learning 专用版本
+# Version: 1.0.0
+# Last Updated: 2026-05-25
+# ============================================
+
+# ============================================
+# 1. Python 编译文件和缓存 / Python bytecode and cache
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyproject
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.spyderproject
+.spyproject
+.rope_project_config
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================
+# 2. IDE 和编辑器配置 / IDE and Editor config
+# ============================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.pdf
+
+# Emacs
+*\#
+\#*\#
+.#*
+TAGS
+
+# Visual Studio Code - Local History
+*.history
+
+# ============================================
+# 3. 操作系统生成文件 / OS generated files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.ini
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# 4. 数据集文件 / Dataset files (Large files)
+# ============================================
+# MNIST 原始数据 (约11MB) - 通常通过代码自动下载
+data/MNIST/raw/*.gz
+data/MNIST/processed/*.pt
+data/MNIST/processed/*.pth
+
+# 其他数据集格式
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.tar.gz (如果包含数据)
+*.zip (如果包含数据)
+
+# 大型数据目录
+datasets/
+data/raw/
+data/external/
+
+# ============================================
+# 5. 模型和权重文件 / Model and weight files (Large)
+# ============================================
+# 训练好的模型 (通常几十MB到几GB)
+models/*.pkl
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.pb
+models/*.onnx
+models/*.tflite
+
+# 检查点文件
+checkpoints/
+*.ckpt
+checkpoint
+
+# TensorBoard 日志 (可能很大)
+runs/
+logs/tensorboard/
+events.out.tfevents.*
+
+# ============================================
+# 6. 训练过程产物 / Training artifacts
+# ============================================
+# 训练日志
+training_logs/
+*.log
+logging/
+
+# 实验结果
+experiments/
+results/
+outputs/
+
+# WandB / MLflow 等实验跟踪工具
+wandb/
+mlruns/
+
+# ============================================
+# 7. 虚拟环境 / Virtual environments
+# ============================================
+# 虚拟环境目录 (根据你的项目选择保留或删除)
+venv/
+ENV/
+env/
+.venv/
+envs/
+
+# Conda 环境
+conda-meta/
+.conda
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# ============================================
+# 8. 包管理器 / Package managers
+# ============================================
+# Node.js (如果有前端组件)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# 9. 测试和覆盖率 / Testing & Coverage
+# ============================================
+# coverage
+cover/
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+htmlcov/
+.tox/
+.nox/
+
+# ============================================
+# 10. 文档和构建产物 / Documentation & Build
+# ============================================
+# Sphinx 文档
+docs/_build/
+site/
+
+# 构建输出
+dist/
+build/
+*.egg-info
+
+# ============================================
+# 11. 敏感信息 / Sensitive information
+# ============================================
+# 环境变量
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+.env.test
+
+# 密钥和凭证
+*.pem
+*.key
+*.crt
+credentials.json
+secrets.yaml
+config.local.yml
+
+# AWS / GCP / Azure 配置
+.aws/
+.gcp/
+.azure/
+service-account.json
+
+# ============================================
+# 12. 项目特定 / Project-specific
+# ============================================
+# 本地配置 (不应提交到版本控制)
+config.local.yaml
+settings.local.py
+local_settings.py
+
+# 用户数据
+user_data/
+uploads/
+temp/
+tmp/
+
+# 备份文件
+*.bak
+*.backup
+*.swp
+*.orig
+
+# 压缩包
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ============================================
+# 13. Docker (如果使用容器化)
+# ============================================
+# Docker volumes
+docker-volumes/
+
+# ============================================
+# 14. 其他 / Miscellaneous
+# ============================================
+# 数据库
+*.db
+*.sqlite3
+*.sqlite
+
+# 视频和音频 (通常很大)
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+*.flac
+
+# 图片 (如果是生成的，不是源码中的)
+generated_images/
+output_images/
+screenshots/*.png (可选：如果你想自己管理截图)
+!README_assets/ (保留 README 使用的图片)
+
+# ============================================
+# 注意事项 / Notes
+# ============================================
+# 
+# 1. 如果你想提交某些被忽略的文件类型，
+#    可以使用 ! 前缀来取消忽略：
+#    !important_file.pkl
+#
+# 2. 对于大型项目，建议使用 git-lfs (Git Large File Storage)
+#    来管理大文件：
+#    https://git-lfs.github.com/
+#
+# 3. 定期清理 .gitignore 以保持其整洁和相关
+#
+# 4. 在团队协作时，确保所有成员都使用相同的 .gitignore
+#
+# ============================================
